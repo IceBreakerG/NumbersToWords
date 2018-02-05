@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Authors>Eric Garrison</Authors>
+    <Company>nFynite Studios</Company>
+    <Product>NumbersToWords</Product>
+    <Description>Simple class method that converts a number to its grammatical representation.</Description>
+    <Copyright>2018</Copyright>
+    <RepositoryUrl>https://github.com/IceBreakerG/NumbersToWords</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
