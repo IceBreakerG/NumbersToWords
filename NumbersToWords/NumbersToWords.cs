@@ -14,9 +14,9 @@ namespace NumbersToWords
 		/// Converts a number into its gramatical representation.
 		/// </summary>
 		/// <param name="number">The number to convert.</param>
-		/// <param name="includeDollarsAndCents">Includes the word "Dollars" and, if there are any, the cents (ie. 19/100) at the end of the string.</param>
+		/// <param name="includeDollarsAndCents">Set to true to include the word "Dollars and " and, if there are any, the cents (ie. 19/100) at the end of the string.</param>
 		/// <returns>The gramatical representation of the specified number (ie. If 777, Seven Hundred Seventy Seven).</returns>
-		public static string ConvertNumberToWords(string number, bool includeDollarsAndCents = true)
+		public static string ConvertNumberToWords(string number, bool includeDollarsAndCents = false)
 		{
 			var sb = new StringBuilder();
 			var DecimalValue = number.Split('.')[1];

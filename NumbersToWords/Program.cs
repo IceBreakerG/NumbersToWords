@@ -34,7 +34,7 @@ namespace NumbersToWords
 						Stopwatch sw = new Stopwatch();
 						sw.Start();
 
-						Console.WriteLine($"\n{NumbersToWords.ConvertNumberToWords(num.ToString("N2"), false)}\n");
+						Console.WriteLine($"\n{NumbersToWords.ConvertNumberToWords(num.ToString("N2"))}\n");
 
 						sw.Stop();
 
